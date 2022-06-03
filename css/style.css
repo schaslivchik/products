@@ -306,6 +306,27 @@ main {
   color: #fff;
   border-color: var(--text-color-link-active);
 }
+.alert-banner {
+  position: absolute;
+  width: 540px;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  z-index: 999;
+  background: #212529e3;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+.alert-banner h1 {
+  color: #fff;
+}
+.active-banner {
+  opacity: 0;
+}
 /*media*/
 @media all and (max-width: 1400px) {
   .main-container {
