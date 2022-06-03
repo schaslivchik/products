@@ -308,21 +308,25 @@ main {
 }
 .alert-banner {
   position: absolute;
-  width: 540px;
-  height: 180px;
+  z-index: 999;
+  width: 290px;
+  height: 73px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: auto;
-  z-index: 999;
   background: #212529e3;
   left: 0;
   right: 0;
   bottom: 0;
   top: 0;
+  outline: 5px solid #ffffff9c;
+  border-radius: 6px;
 }
 .alert-banner h1 {
   color: #fff;
+  font-size: 19px;
+  margin-bottom: 0;
 }
 .active-banner {
   opacity: 0;
@@ -365,5 +369,8 @@ main {
   .active-menu {
     top: 0;
     opacity: 1;
+  }
+  .alert-banner {
+    display: none;
   }
 }
