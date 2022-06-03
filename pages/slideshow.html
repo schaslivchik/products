@@ -79,12 +79,11 @@
 </body>
 <script>
   const alertBanner = document.querySelector('.alert-banner');
-  document.addEventListener("keydown", function (event) {
-    if (event.which === 122) {
-      alertBanner.classList.add('active-banner')
-      console.log('f11')
-    }
-  })
+
+  setTimeout(() => {
+    alertBanner.classList.add('active-banner')
+  },
+    4000)
 
   $('.carousel').carousel({
     interval: 20000
