@@ -129,6 +129,7 @@ main {
   margin: 10px 0 0;
   font-weight: 600;
   transition: 0.1s;
+  margin-bottom: 5px;
 }
 .text-card {
   color: var(--text-color-link);
@@ -190,7 +191,7 @@ main {
   margin-bottom: 35px;
 }
 .text-card {
-  line-height: 19px;
+  line-height: 21px;
   font-weight: 400;
 }
 .digital-marketplace-auctionstreaming {
