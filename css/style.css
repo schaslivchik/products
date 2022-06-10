@@ -374,14 +374,16 @@ main {
 }
 .img-list-group-item {
   overflow: hidden;
-  /* object-fit: fill;
-  width: 100%;
-  height: 200px; */
+}
+.list-group-item {
+  margin-bottom: 30px;
 }
 .img-list-group-item img {
   max-width: 100%;
   text-align: center;
   margin: auto;
+  border: 1px solid var(--border-color-video);
+  border-radius: 4px;
 }
 .top-panal-inner-container {
   display: flex;
