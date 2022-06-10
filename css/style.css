@@ -191,6 +191,7 @@ main {
 }
 .text-card {
   line-height: 19px;
+  font-weight: 400;
 }
 .digital-marketplace-auctionstreaming {
   background: url(../images/auctionstreaming/Digital_Marketplace_auctionstreaming.jpg) center center no-repeat;
@@ -356,8 +357,7 @@ main {
   margin-right: -1px;
   margin-top: -1px;
   padding: 15px;
-  text-align: center;
-  border: none;
+   border: none;
   line-height: 21px;
 }
 .list-group-item + .list-group-item {
